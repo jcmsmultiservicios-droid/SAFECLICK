@@ -1,0 +1,36 @@
+{
+  "geode": "4.6.0",
+  "gd": {
+    "win": "2.2081",
+    "android": "2.2081",
+    "mac": "2.2081",
+    "ios": "2.2081"
+  },
+  "id": "josmais.safeclick",
+  "name": "Safe Click",
+  "version": "v1.0.0",
+  "developer": "Josmais",
+  "description": "Cada vez que haces click, no mueres durante una ventana de tiempo configurable.",
+  "settings": {
+    "enabled": {
+      "type": "bool",
+      "name": "Activado",
+      "description": "Activa o desactiva la protección al hacer click.",
+      "default": true
+    },
+    "window-ms": {
+      "type": "int",
+      "name": "Ventana de protección (ms)",
+      "description": "Tiempo de protección después de cada click.",
+      "default": 150,
+      "min": 0,
+      "max": 1000
+    },
+    "protect-while-holding": {
+      "type": "bool",
+      "name": "Protegido mientras mantienes presionado",
+      "description": "Si está activo, también eres inmune mientras el botón está presionado.",
+      "default": true
+    }
+  }
+}
